@@ -6,11 +6,21 @@ int main(){
     int i = 1;  // start from 1 to n
     while(i<=n){
         int j = 1;   //start from 1 to n
-        while(j<=i){
-            cout<<"*";
+        while(j<=n){
+            cout<<j;
             j=j+1;
         }
         cout<<endl;
         i = i + 1;
     }
 }
+
+/*
+
+12345
+12345
+12345
+12345
+12345
+
+*/

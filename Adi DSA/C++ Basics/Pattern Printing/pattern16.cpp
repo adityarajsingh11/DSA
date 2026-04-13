@@ -7,7 +7,7 @@ int main(){
     while(i<=n){
         int j=1;
         while(j<=i){ 
-            char ch = 'A' + i-1 ;
+            char ch = 'A' + i + j -2;
             cout<<ch<<" ";
              j = j + 1 ;
         }
@@ -15,3 +15,13 @@ int main(){
         i = i + 1;
     }
 }
+
+/*
+
+A 
+B C 
+C D E 
+D E F G 
+E F G H I
+
+*/

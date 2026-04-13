@@ -6,18 +6,28 @@ int main(){
     int i = 1;
     while(i<=n){
         // print space
-        int space = n-i;             // very important question of pattern printing 
-        while(space){
+        int space = 1;             // very important question of pattern printing 
+        while(space<=n-i){
             cout<<" ";
-            space = space-1;
+            space = space+1;
         }
-        // print star 
+        // print number 
         int j = 1;
         while(j<=i){
-            cout<<"*";
+            cout<<i;
             j = j + 1;
         }
         cout<< endl;
         i= i + 1;
     }
 }    
+
+/*
+
+    1
+   22
+  333
+ 4444
+55555
+*/
+    

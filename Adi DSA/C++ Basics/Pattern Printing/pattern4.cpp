@@ -5,12 +5,22 @@ int main(){
     cin>>n;
     int i = 1;  // start from 1 to n
     while(i<=n){
-        int j = 1;   
-        while(j<=i){
-            cout<<i;
+        int j = 1;   //start from 1 to n
+        while(j<=n){
+            cout<<n-j+1;  //formula for reverse printing of pattern
             j=j+1;
         }
         cout<<endl;
         i = i + 1;
     }
 }
+
+/*
+
+54321
+54321
+54321
+54321
+54321
+
+*/
